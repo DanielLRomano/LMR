@@ -6,7 +6,6 @@ body{
 }
 
 h1{
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: #3309d9;
@@ -27,3 +26,10 @@ p{
 li{
     color: rgb(192, 132, 22);
 }
+
+@media (max-widht: 425px){
+    .text-content{
+        text-align: center;
+    }
+}
+
