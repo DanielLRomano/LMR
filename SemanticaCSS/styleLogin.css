@@ -1,0 +1,33 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+h1 {
+    color: azure;
+    font-family: Golos Text;
+    text-align: center;
+    font-size: 80px;
+}
+
+.input {
+    margin-left: 550px;
+    outline: none;
+    margin-top: 10px;
+    font-family: Golos Text;
+    text-align: center;
+}
+
+#botao {
+    margin-left: 550px;
+    margin-top: 10px;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 4%, rgba(1, 193, 242, 1) 35%, rgba(9, 9, 121, 1) 70%, rgba(2, 0, 36, 1) 100%);
+    color: white;
+    border-style: hidden;
+    height: 30px;
+    width: 165px;
+    font-family: Golos Text;
+    text-shadow: none;
+    border-radius: 20px;
+}

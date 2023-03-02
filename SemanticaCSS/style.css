@@ -1,0 +1,44 @@
+body {
+    background-color: darkgray;
+}
+
+#menu {
+    width: 100%;
+    height: 80px;
+    background-color: red;
+    text-align: center;
+}
+
+#menu img {
+    width: 60px;
+    margin-top: 10px;
+}
+
+.linkmenu {
+    color: aliceblue;
+    font-size: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.parte1 {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.parte1 img {
+    height: 300px;
+}
+
+.parte1 h1 {
+    color: red;
+}
+
+.parte1 p {
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+}
