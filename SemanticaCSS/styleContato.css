@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Golos Text;
+    color: azure;
+}
+
+.input {
+    margin-left: 420px;
+    outline: none;
+    margin-top: 10px;
+    font-family: Golos Text;
+    text-align: center;
+    width: 250px;
+}
+
+#botao {
+    margin-left: 420px;
+    outline: none;
+    margin-top: 10px;
+    font-family: Golos Text;
+    text-align: center;
+    height: 30px;
+    width: 258px;
+    border-radius: 15px;
+    border-style: hidden;
+}
+
+#textarea {
+    height: 150px;
+    width: 250px;
+    margin-left: 420px;
+    outline: none;
+    margin-top: 10px;
+    font-family: Golos Text;
+    text-align: center;
+}
+
+.mensagem {
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 40px;
+    background: rgb(32, 52, 118);
+}
