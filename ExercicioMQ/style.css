@@ -77,8 +77,8 @@ body {
 
 .texto{
     display: flex;
-    margin-left: 500px;
-    margin-top: -200px;
+    justify-content: center;
+    align-items: center;
 }
 .texto h3{
     color: orange;
