@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="cadastro">
+        <h1>Ficha de Cadastro</h1>
+        <label for="">Nome: </label>
+        <input type="text" id="pNome">
+        <br>
+        <label for="">Sobrenome: </label>
+        <input type="text" id="sNome">
+        <br>
+        <label for="">Bairro:</label>
+        <input type="text" id="bairro"><br>
+        <label for="">Rua:</label>
+        <input type="text" id="rua"><br>
+        <label for="">Nº:</label>
+        <input type="number" id="nCasa">
+        <br>
+        <label for="">Email:</label>
+        <input type="email" id="email"><br>
+        <label for="">Confirmar Email:</label>
+        <input type="email" id="cEmail" onblur="Email()">
+        <br>
+        <label for="">Senha:</label>
+        <input type="password" id="senha"><br>
+        <label for="">Confirmar Senha:</label>
+        <input type="password" id="cSenha" onblur="Senha()">
+        <br>
+        <input type="button" value="Cadastrar" id="botao" onclick="Cadastro()">
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -5,40 +5,58 @@ function Concatenar() {
     alert(Nome + " " + Sobrenome);
 }
 
-function Somar() {
-    var N1 = document.getElementById('MyCalc').n1soma.value;
-    var N2 = document.getElementById('MyCalc').n2soma.value;
+let N1;
+let N2;
+let resultado;
 
-    var Soma = parseInt(N1) + parseInt(N2);
-    alert("O resultado da soma é: " + Soma);
+function Somar() {
+    N1 = document.getElementById('MyCalc').n1.value;
+    N2 = document.getElementById('MyCalc').n2.value;
+
+    if (N1 == "" || N2 == "") {
+        alert("Preencher todos os campos")
+    } else {
+        resultado = parseInt(N1) + parseInt(N2);
+        alert("O resultado da soma é: " + resultado);
+    }
 }
 
 function Subtrair() {
-    var N1 = document.getElementById('MyCalc').n1sub.value;
-    var N2 = document.getElementById('MyCalc').n2sub.value;
+    N1 = document.getElementById('MyCalc').n1.value;
+    N2 = document.getElementById('MyCalc').n2.value;
 
-    var Sub = parseInt(N1) - parseInt(N2);
-    alert("O resultado da subtração é: " + Sub);
+    if (N1 == "" || N2 == "") {
+        alert("Preencher todos os campos")
+    } else {
+        resultado = parseInt(N1) - parseInt(N2);
+        alert("O resultado da Subtração é: " + resultado);
+    }
 
 }
 
 function Multiplicar() {
-    var N1 = document.getElementById('MyCalc').n1mult.value;
-    var N2 = document.getElementById('MyCalc').n2mult.value;
+    N1 = document.getElementById('MyCalc').n1.value;
+    N2 = document.getElementById('MyCalc').n2.value;
 
-    var Mult = parseInt(N1) * parseInt(N2);
-    alert("O resultado da multiplicação é: " + Mult);
+    if (N1 == "" || N2 == "") {
+        alert("Preencher todos os campos")
+    } else {
+        resultado = parseInt(N1) * parseInt(N2);
+        alert("O resultado da Multiplicação é: " + resultado);
+    }
 
 }
 
 function Dividir() {
-    var N1 = document.getElementById('MyCalc').n1div.value;
-    var N2 = document.getElementById('MyCalc').n2div.value;
+    N1 = document.getElementById('MyCalc').n1.value;
+    N2 = document.getElementById('MyCalc').n2.value;
 
-    if (N2 == 0) {
+    if (N1 == "" || N2 == "") {
+        alert("Preencher todos os campos")
+    } else if (N2 == 0) {
         alert("Não dividirás por 0!");
     } else {
-        var Div = parseFloat(N1) / parseFloat(N2);
-        alert("O resultado da divisão é: " + Div);
+        resultado = parseFloat(N1) / parseFloat(N2);
+        alert("O resultado da divisão é: " + resultado);
     }
 }
