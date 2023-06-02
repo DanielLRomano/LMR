@@ -1,0 +1,43 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(60, 60, 151);
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.d {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.carrosel {
+    width: 70%;
+    margin: auto;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lower {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.lower1 {
+    display: flex;
+    justify-content: center;
+}
