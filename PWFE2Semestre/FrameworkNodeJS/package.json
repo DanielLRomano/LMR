@@ -1,0 +1,12 @@
+{
+  "name": "05framework",
+  "version": "1.0.0",
+  "description": "Criaçao do meu primeiro servidor com node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MestreWalla",
+  "license": "ISC"
+}

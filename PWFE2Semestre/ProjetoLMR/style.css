@@ -1,0 +1,85 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(60, 60, 151);
+    font-style: italic;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.d {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.carrosel {
+    width: 70%;
+    margin: auto;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lower {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.lower1 {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    background-color: rgb(60, 60, 151);
+    color: white;
+    border: rgb(60, 60, 151);
+}
+
+#inp1 {
+    border: rgb(60, 60, 151);
+    border-radius: 3px;
+    width: 45vh;
+}
+
+option {
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-musica {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

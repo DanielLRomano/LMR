@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Eventos</title>
+</head>
+
+<body>
+    <ul class="nav">
+        <li class="nav-item">
+            <a href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="musica.html">Música</a>
+        </li>
+        <li class="nav-item">
+            <a href="eventos.html">Eventos</a>
+        </li>
+        <li class="nav-item">
+            <a href="cinema.html">Cinema</a>
+        </li>
+        <li class="nav-item">
+            <a href="cadastro.html">Cadastro</a>
+        </li>
+        <li class="nav-item">
+            <a href="login.html">Login</a>
+        </li>
+    </ul>
+    <hr>
+    <div class="cadastro">
+        <form class="needs-validation1" novalidate>
+            <h1>CADASTRE-SE</h1>
+            <div class="form-row mb-4">
+                <div class="col-md-4 mb-3">
+                    <label for="pNome">Primeiro nome</label>
+                    <input type="text" class="form-control" id="pNome" placeholder="Nome" pattern="[A-Za-z]+" required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Por favor, Preencha o campo.
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="sNome">Sobrenome</label>
+                    <input type="text" class="form-control" id="sNome" placeholder="Sobrenome" pattern="[A-Za-z]+"
+                        required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Por favor, Preencha o campo.
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="usuario">Usuário</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="arroba">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="usuario" placeholder="Usuário"
+                            aria-describedby="inputGroupPrepend3" pattern="[A-Za-z]+" required>
+                        <div class="valid-feedback">
+                            Tudo certo!
+                        </div>
+                        <div class="invalid-feedback">
+                            Por favor, Preencha o campo.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-5 mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Por favor, Preencha o campo.
+                    </div>
+                </div>
+                <div class="col-md7 mb-3">
+                    <label for="cEmail">Confirmar E-mail</label>
+                    <input type="email" class="form-control" id="cEmail" placeholder="E-mail" onblur="Email()" required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Por favor, Preencha o campo.
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-5 mb-3">
+                    <label for="senha">Senha</label>
+                    <input type="text" class="form-control" id="senha" placeholder="Senha" required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Por favor, Preencha o campo.
+                    </div>
+                </div>
+                <div class="col-md7 mb-3">
+                    <label for="cSenha">Confirmar Senha</label>
+                    <input type="password" class="form-control" id="cSenha" placeholder="Senha" onblur="Senha()"
+                        required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Por favor, Preencha o campo.
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-5 mb-3">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" class="form-control" id="cidade" placeholder="Cidade" pattern="[A-Za-z]+"
+                        required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Por favor, Preencha o campo.
+                    </div>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <label for="estado">Estado</label>
+                    <input type="text" class="form-control" id="estado" placeholder="Sigla" pattern="[A-Z]{2}" required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Por favor, Preencha o campo.
+                    </div>
+                </div>
+                <div class="col-md-5 mb-3">
+                    <label for="cep">CEP</label>
+                    <input type="text" class="form-control" id="cep" placeholder="CEP (numeros)" pattern="[0-9]{8}"
+                        required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Por favor, Preencha o campo.
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="cpf">CPF</label>
+                    <input type="text" class="form-control" id="cpf" placeholder="CPF(numeros)" pattern="[0-9]{11}"
+                        required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Por favor, Preencha o campo.
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="nCartao">Nº Cartão</label>
+                    <input type="text" class="form-control" id="nCartao" placeholder="Nº Cartão (numeros)"
+                        pattern="[0-9]{13,16}" required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Por favor, Preencha o campo.
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input is-invalid" type="checkbox" value="" id="termos"
+                        onclick="marcarTermos()" required>
+                    <label class="form-check-label" for="invalidCheck3">
+                        Concordo com os termos e condições
+                    </label>
+                </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Cadastre-se</button>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"
+    defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</html>
