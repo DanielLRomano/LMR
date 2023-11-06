@@ -9,13 +9,13 @@ import { Usuario } from '../usuario.model';
 export class FormularioComponent {
   usuario: Usuario = {
     nome: '',
-
     email: ''
   };
 
   onSubmit() {
-    // Aqui, você pode armazenar os dados em um arquivo JSON
+    // Aqui, você pode armazenar os dados em umarquivo JSON
     // Por exemplo, usando o serviço HttpClient ou localStorage
-    console.log('Dados do usuário:', this.usuario);
+    console.log('Dados do usuário:',
+      this.usuario);
   }
 }
