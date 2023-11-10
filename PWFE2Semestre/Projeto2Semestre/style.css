@@ -2,180 +2,107 @@
     margin: 0;
 }
 
-.nav {
-    width: 100%;
-    height: 9rem;
-    flex-shrink: 0;
-    background: #2A8A5C;
-}
 
-#logo {
-    width: 100%;
-    height: 9rem;
-    flex-shrink: 0;
-    padding-left: 20px;
-}
-
-.d-flex {
+.cima {
+    background-color: #2A8A5C;
     display: flex;
-    width: 30%;
-    height: 9rem;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #000;
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Inter;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-left: 90px;
+    align-items: center;
+    justify-content: space-around;
 }
 
-#imgNav {
-    padding-top: 40px;
-    width: 100%;
-    height: 6rem;
-    padding-left: 12rem;
+.foto1 {
+    width: 180px;
+    height: 10rem;
 }
 
-.textoNav {
-    padding-top: 50px;
-    padding-left: 100px;
+.foto2 {
+    width: 100px;
 }
 
-.footer * {
-    box-sizing: border-box;
+#btnBusca {
+    width: 15px;
+}
+
+.pedidos {
+    display: flex;
+    align-items: center;
+}
+
+.baixo {
+    background-color: #2A8A5C;
+    display: flex;
+}
+
+.texto-info {
+    color: white;
+    font-size: 13px;
 }
 
 .footer {
-    background: #2a8a5c;
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
-    height: 9.5rem;
-    position: relative;
-    overflow: hidden;
-}
-
-.footerQuadrado {
-    background: #d9d9d9;
-    border-style: solid;
-    border-color: #000000;
-    border-width: 1px;
-    width: 10rem;
-    height: 85%;
+    height: 10rem;
+    top: 100%;
     position: absolute;
-    left: 31.9%;
-    top: 1rem;
+    background: #2A8A5C;
 }
 
-.mega-pet-mart-1 {
-    width: 84px;
-    height: 57px;
-    position: absolute;
-    left: 50px;
-    top: 22px;
+.logoFooter {
+    width: 80px;
+    height: 80px;
 }
 
-.lojaFooter {
-    color: #ffffff;
-    text-align: left;
-    font: 400 10px 'Inter', sans-serif;
-    position: absolute;
-    left: 50px;
-    top: 87px;
-    width: 145px;
+.ladoEsqFooter {
+    font-size: 10px;
+    color: white;
 }
 
-.politicaFooter {
-    color: #ffffff;
-    text-align: left;
-    position: absolute;
-    left: 57%;
-    top: 0.5rem;
+.redeSocial {
+    margin-top: 10px;
+    font-size: 10px;
+    color: white;
 }
 
-.politicaFooter-span {
-    color: #ffffff;
-    font: 900 12px 'Inter', sans-serif;
+.imgRede {
+    margin-top: 10px;
+    height: 20px;
 }
 
-.politicaFooter-span3 {
-    color: #ffffff;
-    font: 100 10px 'Inter', sans-serif;
-}
-
-.atendimentoFooter {
-    color: #ffffff;
-    text-align: left;
-    position: absolute;
-    left: 48%;
-    top: 0.5rem;
-}
-
-.atendimentoFooter-span {
-    color: #ffffff;
-    font: 900 12px 'Inter', sans-serif;
-}
-
-.atendimentoFooter-span3 {
-    color: #ffffff;
-    font: 400 10px 'Inter', sans-serif;
-}
-
-.onde-estamos {
-    color: #ffffff;
-    text-align: left;
-    position: absolute;
-    left: 20rem;
-    top: 2rem;
-    width: 100%;
-    height: 10%;
-}
-
-.onde-estamos-span {
-    color: #ffffff;
-    font: 900 12px 'Inter', sans-serif;
-}
-
-.onde-estamos-span3 {
-    color: #ffffff;
-    font: 400 10px 'Inter', sans-serif;
-}
-
-.institucionalFooter {
-    color: #ffffff;
-    text-align: left;
-    position: absolute;
-    left: 68%;
-    top: 0.5rem;
-}
-
-.institucionalFooter-span {
-    color: #ffffff;
-    font: 900 12px 'Inter', sans-serif;
-}
-.institucionalFooter-span3 {
-    color: #ffffff;
-    font: 400 10px 'Inter', sans-serif;
-}
-
-.imgIcones {
-    width: 117px;
-    height: 48px;
-    position: absolute;
-    left: 308px;
-    top: 43px;
-}
-
-.textoQuadrado {
-    color: #000000;
+.meioFooter {
+    margin-top: 10px;
+    width: 200px;
     text-align: center;
-    font: 900 11px 'Inter', sans-serif;
-    position: absolute;
-    left: 602px;
-    top: 16px;
-    width: 154px;
-    height: 125px;
+    color: black;
+    font-size: 19px;
+    font-family: Inter;
+    font-weight: 900;
+    word-wrap: break-word
+}
+
+.politica1 {
+    margin-top: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: none;
+    color: white;
+}
+
+.politica2 {
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: none;
+    color: white;
+}
+
+.politica3 {
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
