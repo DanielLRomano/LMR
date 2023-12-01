@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    top: 100%;
+    background: #2A8A5C;
+}
+
+.logoFooter {
+    width: 50%;
+    height: 4rem;
+}
+
+.ladoEsqFooter {
+    font-size: 15px;
+    color: white;
+margin-bottom: 20px;
+}
+
+.redeSocial {
+    margin-top: 10px;
+    color: white;
+}
+
+.redeSocial h1{
+    font-size: 25px;
+}
+
+.imgRede {
+    margin-top: 5px;
+    height: 40px;
+    padding-left: 30px;
+}
+
+.meioFooter {
+    width: 200px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 850;
+    border: 3px solid ;
+}
+
+.politica1 {
+    margin-top: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: none;
+    color: white;
+}
+
+.politica1 h1{
+    font-size: 25px;
+}
+
+.politica2 {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: none;
+    color: white;
+}
+
+.politica2 h1{
+    font-size: 25px;
+}
+
+.politica3 {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: none;
+    color: white;
+}
+
+.politica3 h1{
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
