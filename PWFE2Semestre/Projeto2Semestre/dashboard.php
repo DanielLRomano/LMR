@@ -13,7 +13,7 @@
       // Função para redirecionar para a página index após 3 segundos
       function redirecionarParaIndex() {
         setTimeout(function() {
-          window.location.href = "http://localhost/MegaPetMartz/index.html";
+          window.location.href = "http://localhost/Projeto2Semestre/index.html";
         }, 3000); // 3000 milissegundos = 3 segundos
       }
 

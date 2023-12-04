@@ -1,40 +1,39 @@
-// cadastro.js
+(function () {
+    'use strict';
+    window.addEventListener('load', function () {
+        var forms = document.getElementsByClassName('needs-validation1');
+        var validation = Array.prototype.filter.call(forms, function (form) {
+            form.addEventListener('submit', function (event) {
+                if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+        });
+    }, false);
+})();
 
-// Função para validar o formulário de cadastro
-function validarFormularioCadastro() {
-    var email = document.getElementById("email").value;
-    var confirmEmail = document.getElementById("confirmEmail").value;
-    var senha = document.getElementById("senha").value;
-    var confirmSenha = document.getElementById("confirmSenha").value;
-    var endereco = document.getElementById("endereco").value;
-    var cep = document.getElementById("cep").value;
-    var estado = document.getElementById("estado").value;
-    var cidade = document.getElementById("cidade").value;
-
-    if (email === "" || confirmEmail === "" || senha === "" || confirmSenha === "" || endereco === "" || cep === "" || estado === "" || cidade === "") {
-        alert("Por favor, preencha todos os campos obrigatórios.");
-        return false;
+function Email() {
+    let email = document.getElementById('email').value;
+    let cEmail = document.getElementById('cEmail').value;
+    if (email != cEmail) {
+        alert("Emails divergentes, favor verificar.")
     }
-
-    if (email !== confirmEmail) {
-        alert("Os campos de email e confirmar email devem corresponder.");
-        return false;
-    }
-
-    if (senha !== confirmSenha) {
-        alert("Os campos de senha e confirmar senha devem corresponder.");
-        return false;
-    }
-
-    return true;
 }
 
-// Event listener para o envio do formulário de cadastro
-var formularioCadastro = document.getElementById("formularioCadastro");
-if (formularioCadastro) {
-    formularioCadastro.addEventListener("submit", function (e) {
-        if (!validarFormularioCadastro()) {
-            e.preventDefault(); // Impede o envio do formulário se a validação falhar
+function Senha() {
+    let senha = document.getElementById('senha').value;
+    let cSenha = document.getElementById('cSenha').value;
+    if (senha != cSenha) {
+        alert("Senhas divergentes, favor verificar.")
+    }
+}
+
+function marcarTermos() {
+    document.getElementById("termosButton").onclick = function () {
+        if (!document.getElementById("termosButton").classList.contains("clicked")) {
+            document.getElementById("avisoTermos").style.display = "block";
         }
-    });
+    }
 }

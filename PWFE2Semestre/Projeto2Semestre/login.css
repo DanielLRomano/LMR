@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(20, 181, 55, 0.2);
+}
+
+.needs-validation1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+}
+
+#btnLogin {
+    background-color: #2A8A5C;
+}
+
+#btnLogin:hover {
+    background-color: #15b065;
+}

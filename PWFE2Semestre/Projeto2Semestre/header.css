@@ -1,5 +1,7 @@
-* {
-    margin: 0;
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .cima {
@@ -89,9 +91,9 @@
   }
   
   .icon-cart path {
-    fill: black(240, 8, 8);
+    fill: black; /* Corrigido aqui */
     transition: .2s linear;
-  }
+}
   
   .btn-cart:hover > .icon-cart {
     transform: scale(1.2);
@@ -112,20 +114,20 @@
   }
   
 
-.entrar_cadastro {
+  .entrar_cadastro {
     display: inline-block;
     border-radius: 4px;
     background-color: black;
     border: none;
     color: #FFFFFF;
     text-align: center;
-    font-size: 1;
+    font-size: 16px; /* Corrigido aqui */
     padding: 10px;
     width: 130px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-   }
+}
    
    .entrar_cadastro span {
     cursor: pointer;
