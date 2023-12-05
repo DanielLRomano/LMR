@@ -1,4 +1,40 @@
-.contatoTexto {
+body {
+    background-color: rgba(20, 181, 55, 0.2);
+}
+
+.total {
+    align-items: center;
+}
+
+.tipos {
+    margin-left: 70vh;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.informacoes2 {
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.faleConosco {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -6,10 +42,25 @@
     justify-content: center;
 }
 
-.contatoForm{
+.input {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    width: 50%;
+    margin-left: 30%;
+}
+
+.input2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+
+}
+
+#btnLogin {
+    background-color: #2A8A5C;
+}
+
+#btnLogin:hover {
+    background-color: #15b065;
 }
